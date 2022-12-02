@@ -1,4 +1,4 @@
-import express from 'express'
+const express = require('express')
 
 const lineNotify = require('line-notify-nodejs')('Wf7B7rkOeWsJRDe6uFyc0FDtDG2Ri4XVaQ7uwBvsbLg');
 
@@ -23,4 +23,4 @@ router.post('/', (req, res, next) => {
 })
 
 
-export { router }
+module.exports =  router;

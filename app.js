@@ -1,9 +1,7 @@
-import express from 'express'
-import path from 'path'
-import cors from 'cors'
-import bodyParser from 'body-parser'
-
-import { router } from './routes'
+const express = require('express');
+const path = require('path')
+const bodyParser = require('body-parser')
+const router = require('./routes')
 
 
 const app = express()
