@@ -9,9 +9,9 @@ import { router } from './routes'
 const app = express()
 const port = 3000;
 
-const corsOptions = { origin: "http://localhost" }
+//const corsOptions = { origin: "https://lazy-gray-sea-lion-gown.cyclic.app/" }
 
-app.use(cors(corsOptions))
+//app.use(cors(corsOptions))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
